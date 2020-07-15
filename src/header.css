@@ -1,0 +1,53 @@
+.head-box{
+    background-color: #273036;
+    
+}
+.head-text{
+    color: white;
+}
+.footer-text{
+    font-size: 2rem;
+    color: white;
+}
+.btn{
+    font-size: 2.5rem;
+}
+input{
+    font-size: 1.5rem;
+}
+h1{
+    font-size:4rem
+}
+.joke-text{
+    font-size: 2rem;
+}
+  
+  @media screen and (min-width: 980px) /* Desktop */ {
+    h1{
+        font-size:4rem
+    }
+    .footer-text{
+        font-size: 2rem;
+        color: white;
+    }
+  }
+  
+  @media screen  and (max-width: 979px) /* Tablet */ {
+    h1{
+        font-size:3rem
+    }
+    .footer-text{
+        font-size: 1.5rem;
+        color: white;
+    }
+  }
+  
+  @media screen and (max-width: 500px) /* Mobile */ {
+    h1{
+        font-size:2rem
+    }
+    .footer-text{
+        font-size: 1.2rem;
+        color: white;
+    }
+  }
