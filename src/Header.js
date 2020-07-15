@@ -14,7 +14,7 @@ class Header extends React.Component{
         return(
             <div>
            <div class="container-fluid head-box">
-               <div class="row py-5">
+               <div class="row py-xl-5 py-md-5 py-0 pb-5">
                    <div class="col head-text py-2 display-1">
                         <div class="display-1 pt-5">Llama's the Answer 🦙</div>
                         <div class="display-5 py-1">Feed the llama and get your answer</div>
